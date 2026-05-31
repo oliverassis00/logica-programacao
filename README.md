@@ -48,9 +48,39 @@
 <p> Ex: Pyhton, JavaScript, Ruby, etc..
 </P>
 
-### Desenvolvimento em Python
+### Desenvolvimento em Python 💻
 
-## Entrada e Saída de Dados 💻
+#### Entrada e Saída de Dados 📝
 <p> input( ) => Recebe dados do usuário, sempre str (texto).</p>
 <p> print( ) => Mostra informações na tela (texto, números, variáveis).</p>
 
+#### Variáveis 📝
+<p> São espaços na memória do computador que utilizamos para guardar alguma informação, como o nome já diz, é uma variável, ou seja, pode ser alterada durante a execução do programa. Temos algumas regras para declarações de variáveis abaixo:</p>
+<p> Não pode começar com número, não pode conter espaços, não pode caracteres especiais e maiúsculos e minúsculos tem diferença.
+</p>
+<p> Pode ser usado o _ no começo da variável, exemplos válidos:
+</p>
+<p> ex: _nome_usuario
+</p>
+<p> ex: numero1
+</p>
+<p> ex: n2_num
+</p>
+
+##### Tipos de Escopos de Variáveis 📝
+<p> Global: Pode ser acessada em qualquer lugar do código.
+</p>
+<p> Local: Pode ser acessado apenas dentro de funções (def).
+</p>
+<p> O Python prioriza <b>Local > Global > Internas</b>.
+</p>
+
+#### Tipos de Dados 📝
+<p> Int: Utilizado para armazenar números inteiros. Ex: 50
+</p>
+<p> Float: Utilizado para armazenar números flutuantes (com vírgula). Ex: 3.14
+</p>
+<p> Bool: Utilizado para armazenar somente 2 valores, True ou False.
+</p>
+<p> Str: Utilizado para armazenar texto, sempre entre aspas simples ou duplas. Ex: "Oliver", "O".
+</p>
