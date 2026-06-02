@@ -84,3 +84,17 @@
 </p>
 <p> Str: Utilizado para armazenar texto, sempre entre aspas simples ou duplas. Ex: "Oliver", "O".
 </p>
+
+#### Operadores: 📝
+
+##### Aritméticos (Operações)
+<p> + - * / (Adição, Subtração, Multiplicação e Divisão)</p>
+
+##### Operadores Relacionais (Comparações)
+<p> == != > < >= <= (Igual, Diferente, Maior, Menor, Maior ou Igual e Menor ou Igual)</p>
+
+##### Operadores Lógicos (Condições)
+<p> and or not (E, ou e não(inversão))</p>
+
+##### Operadores de Atribuição
+<p> = += -= *= /= () </p>

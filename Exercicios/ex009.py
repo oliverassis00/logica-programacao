@@ -1,6 +1,11 @@
-# Cadastro de Computador
-# Receba do usuário:
-# Nome do computador
-# Quantidade de memória RAM (GB)
-# Capacidade do SSD (GB)
-# Armazene os valores usando os tipos apropriados e exiba os dados.
+# Troca de valores
+# Você possui duas variáveis:
+# Faça com que a passe a valer 20 e b passe a valer 10.
+
+a = 10
+b = 20
+
+a = 20
+b = 10
+
+print(f'valor de a {a} valor de b {b}')
