@@ -1,9 +1,11 @@
-11. Divisão da conta
+# Divisão da conta
+# Três amigos foram a um restaurante.
+# Conta:
+# total = 287.50
+# Divida igualmente entre eles.
 
-Três amigos foram a um restaurante.
+total_conta = 287.50
 
-Conta:
+divisao_conta = total_conta / 3
 
-total = 287.50
-
-Divida igualmente entre eles.
+print(f'R${divisao_conta:.2f}'.replace('.', ','))

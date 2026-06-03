@@ -1,12 +1,16 @@
-7. Valor total da compra
+# Valor total da compra
+# Uma loja vende:
+# Produto: R$ 89,90
+# Quantidade: 3 unidades
+# Calcule:
+# Valor bruto
+# Desconto de 10%
+# Valor final
 
-Uma loja vende:
+produto = 89.90
+quantidade = 3
 
-Produto: R$ 89,90
-Quantidade: 3 unidades
+valor_bruto = produto * 3
+desconto = valor_bruto - ((valor_bruto * 10) / 100)
 
-Calcule:
-
-Valor bruto
-Desconto de 10%
-Valor final
+print(f'Valor do produto R${valor_bruto:.2f},'.replace('.',','),f'valor com desconto ofertado R${desconto:.2f}'.replace('.',','))

@@ -97,4 +97,5 @@
 <p> and or not (E, ou e não(inversão))</p>
 
 ##### Operadores de Atribuição
-<p> = += -= *= /= () </p>
+<p> = += -= *= /= (operação + atribuição) </p>
+

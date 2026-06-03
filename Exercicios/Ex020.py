@@ -1,10 +1,16 @@
-13. Conversão de minutos
-
-Receba:
+# Conversão de minutos
+# Receba:
+# minutos = 345
+# Converta para:
+# Horas
+# Minutos restantes
 
 minutos = 345
 
-Converta para:
+minutos_restantes = minutos % 60
+horas = minutos // 60
 
-Horas
-Minutos restantes
+print(f'''
+horas: {horas}
+minutos: {minutos_restantes}
+    ''')

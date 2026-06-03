@@ -1,7 +1,10 @@
-5. Conversão de temperatura
+# Conversão de temperatura
+# Receba uma temperatura em Celsius e converta para Fahrenheit.
+# Fórmula:
+# F = C × 9/5 + 32
 
-Receba uma temperatura em Celsius e converta para Fahrenheit.
+temp_celsius = float(input('Digite a temperatura em Celsius (Cº): '))
 
-Fórmula:
+con_fahrenheit = (temp_celsius * 1.8) + 32 # já tem ordem de precedencia por ser multiplicação, mas enfatizei a prioridade
 
-F = C × 9/5 + 32
+print(f'A conversão de Cº {temp_celsius} para Fº {con_fahrenheit}')

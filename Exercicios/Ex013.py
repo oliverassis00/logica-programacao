@@ -1,15 +1,20 @@
-6. Separação de horas
-
-Uma entrevista famosa de estágio já utilizou algo parecido.
-
-Você possui:
+# Separação de horas
+# Você possui:
+# segundos = 9876
+# Descubra:
+# Quantas horas completas existem
+# Quantos minutos restantes
+# Quantos segundos restantes
+# Utilize apenas operadores matemáticos.
 
 segundos = 9876
 
-Descubra:
+horas = segundos // 3600
+resto = segundos % 3600
 
-Quantas horas completas existem
-Quantos minutos restantes
-Quantos segundos restantes
+minutos = resto // 60
+segundos_restantes = resto % 60
 
-Utilize apenas operadores matemáticos.
+print("Horas:", horas)
+print("Minutos:", minutos)
+print("Segundos:", segundos_restantes)

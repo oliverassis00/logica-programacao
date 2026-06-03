@@ -5,6 +5,6 @@
 idade = "26"
 
 # Quantidade dias de vida
-qtd_dias = int(idade) * 360
+qtd_dias = int(idade) * 365
 
 print(qtd_dias)
