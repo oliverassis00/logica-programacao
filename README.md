@@ -99,3 +99,16 @@
 ##### Operadores de Atribuição
 <p> = += -= *= /= (operação + atribuição) </p>
 
+#### Decisões: 📝
+
+##### if
+<p> Se a condição for verdadeira, executa o bloco.
+</p>
+
+#### elif
+<p> Se a condição anterior for falsa, ele executa esse bloco.
+</p>
+
+#### else
+<p> Se nenhuma condição for verdadeira, executa o else.
+</p>
