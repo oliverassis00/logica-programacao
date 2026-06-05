@@ -99,7 +99,7 @@
 ##### Operadores de Atribuição
 <p> = += -= *= /= (operação + atribuição) </p>
 
-#### Decisões: 📝
+#### Estruturas de Decisão: 📝
 
 ##### if
 <p> Se a condição for verdadeira, executa o bloco.
@@ -112,3 +112,5 @@
 #### else
 <p> Se nenhuma condição for verdadeira, executa o else.
 </p>
+
+#### Estruturas de Repetição 📝
